@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.title {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+h2:first-child {
+  width: 250px;
+  text-align: center;
+}
+
+h2 {
+  width: 500px;
+  text-align: start;
+}
+
+.row {
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.key {
+  width: 250px;
+}
+
+.value {
+  width: 500px;
+  text-align: start;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-left: 10px;
+}
